@@ -1,0 +1,28 @@
+server:
+  port: 3044
+
+routes:
+  - name: users
+    path: /users
+    uri: http://localhost:3001
+
+  - name: auth
+    path: /auth
+    uri: http://localhost:3004
+
+globalCors:
+  allowedOrigins:
+    - "http://localhost:3000"
+    - "http://192.168.219.213:3000"
+    - "http://localhost:3001"
+  allowedMethods:
+    - "GET"
+    - "POST"
+    - "PUT"
+    - "DELETE"
+    - "OPTIONS"
+  allowedHeaders:
+    - "Content-Type"
+    - "Authorization"
+    - "x-api-key"
+  allowCredentials: true

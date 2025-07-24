@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: appgateway
+    ports:
+      - "9091:9091"
+    env_file:
+      - .env
+    networks:
+      - backend
+
+networks:
+  backend:
+    external: true
