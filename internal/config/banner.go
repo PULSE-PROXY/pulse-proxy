@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"gateway-api/internal/logger"
+	"pule-proxy/internal/logger"
 )
 
 func PrintBanner(port int) {

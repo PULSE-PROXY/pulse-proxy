@@ -1,4 +1,4 @@
-module gateway-api
+module pule-proxy
 
 go 1.23.0
 

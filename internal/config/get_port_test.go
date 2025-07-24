@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gateway-api/internal/config"
+	"pule-proxy/internal/config"
 )
 
 func TestPortApp(t *testing.T) {

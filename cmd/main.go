@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gateway-api/ex"
-	"gateway-api/internal/healthcheck"
+	"pule-proxy/ex"
+	"pule-proxy/internal/healthcheck"
 
 )
 

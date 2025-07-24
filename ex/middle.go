@@ -1,8 +1,8 @@
 package ex
 
 import (
-	"gateway-api/internal/config"
-	"gateway-api/internal/logger"
+	"pule-proxy/internal/config"
+	"pule-proxy/internal/logger"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

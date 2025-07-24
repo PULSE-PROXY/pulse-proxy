@@ -1,7 +1,7 @@
 package yaml_config
 
 import (
-	"gateway-api/internal/logger"
+	"pule-proxy/internal/logger"
 	"os"
 
 	"gopkg.in/yaml.v2"

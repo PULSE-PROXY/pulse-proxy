@@ -2,8 +2,8 @@ package proxy
 
 import (
 	"fmt"
-	"gateway-api/internal/config"
-	"gateway-api/internal/logger"
+	"pule-proxy/internal/config"
+	"pule-proxy/internal/logger"
 	"net/http"
 	"net/http/httputil"
 	"net/url"

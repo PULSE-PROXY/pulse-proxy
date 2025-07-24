@@ -1,7 +1,7 @@
 package config
 
 import (
-	"gateway-api/internal/server"
+	"pule-proxy/internal/server"
 	"time"
 
 	"github.com/labstack/echo/v4"

@@ -2,12 +2,12 @@ package start
 
 import (
 	"fmt"
-	"gateway-api/internal/config"
-	"gateway-api/internal/logger"
-	"gateway-api/internal/middleware"
-	"gateway-api/internal/proxy"
-	"gateway-api/internal/server"
-	yaml_config "gateway-api/internal/yaml"
+	"pule-proxy/internal/config"
+	"pule-proxy/internal/logger"
+	"pule-proxy/internal/middleware"
+	"pule-proxy/internal/proxy"
+	"pule-proxy/internal/server"
+	yaml_config "pule-proxy/internal/yaml"
 	"time"
 
 	"github.com/labstack/echo/v4"

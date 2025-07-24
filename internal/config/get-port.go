@@ -1,7 +1,7 @@
 package config
 
 import (
-	yaml_config "gateway-api/internal/yaml"
+	yaml_config "pule-proxy/internal/yaml"
 	"strconv"
 )
 

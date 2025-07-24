@@ -2,7 +2,7 @@ package start
 
 import (
 	"context"
-	"gateway-api/internal/logger"
+	"pule-proxy/internal/logger"
 	"os"
 	"os/signal"
 	"syscall"

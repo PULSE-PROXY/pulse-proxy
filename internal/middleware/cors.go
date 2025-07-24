@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"gateway-api/internal/logger"
-	yaml_config "gateway-api/internal/yaml"
+	"pule-proxy/internal/logger"
+	yaml_config "pule-proxy/internal/yaml"
 	"net/http"
 	"strings"
 

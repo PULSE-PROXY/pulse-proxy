@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gateway-api/internal/yaml"
+	"pule-proxy/internal/yaml"
 )
 
 func TestLoadGatewayConfig_ValidYAML(t *testing.T) {

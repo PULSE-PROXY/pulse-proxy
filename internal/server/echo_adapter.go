@@ -2,7 +2,7 @@ package server
 
 import (
 	"context"
-	"gateway-api/internal/logger"
+	"pule-proxy/internal/logger"
 
 	"github.com/labstack/echo/v4"
 )
