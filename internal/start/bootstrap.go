@@ -2,14 +2,14 @@ package start
 
 import (
 	"fmt"
-	"pule-proxy/internal/config"
-	"pule-proxy/internal/logger"
-	"pule-proxy/internal/middleware"
-	"pule-proxy/internal/proxy"
-	"pule-proxy/internal/server"
-	yaml_config "pule-proxy/internal/yaml"
 	"time"
 
+	"github.com/PULSE-PROXY/pulse-proxy/internal/config"
+	"github.com/PULSE-PROXY/pulse-proxy/internal/logger"
+	"github.com/PULSE-PROXY/pulse-proxy/internal/middleware"
+	"github.com/PULSE-PROXY/pulse-proxy/internal/proxy"
+	"github.com/PULSE-PROXY/pulse-proxy/internal/server"
+	yaml_config "github.com/PULSE-PROXY/pulse-proxy/internal/yaml"
 	"github.com/labstack/echo/v4"
 )
 

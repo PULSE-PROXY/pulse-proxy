@@ -1,9 +1,8 @@
 package main
 
 import (
-	"pule-proxy/ex"
-	"pule-proxy/internal/healthcheck"
-
+	"github.com/PULSE-PROXY/pulse-proxy/ex"
+	"github.com/PULSE-PROXY/pulse-proxy/internal/healthcheck"
 )
 
 func main() {

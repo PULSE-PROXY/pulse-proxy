@@ -1,9 +1,9 @@
 package config
 
 import (
-	"pule-proxy/internal/server"
 	"time"
 
+	"github.com/PULSE-PROXY/pulse-proxy/internal/server"
 	"github.com/labstack/echo/v4"
 )
 

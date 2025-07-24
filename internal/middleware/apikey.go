@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"pule-proxy/internal/config"
-	"pule-proxy/internal/logger"
 	"net/http"
 
+	"github.com/PULSE-PROXY/pulse-proxy/internal/config"
+	"github.com/PULSE-PROXY/pulse-proxy/internal/logger"
 	"github.com/labstack/echo/v4"
 )
 

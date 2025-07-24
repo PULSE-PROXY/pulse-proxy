@@ -4,9 +4,8 @@ import (
 	"os"
 	"testing"
 
+	yaml_config "github.com/PULSE-PROXY/pulse-proxy/internal/yaml"
 	"github.com/stretchr/testify/assert"
-
-	"pule-proxy/internal/yaml"
 )
 
 func TestLoadGatewayConfig_ValidYAML(t *testing.T) {

@@ -1,4 +1,4 @@
-module pule-proxy
+module github.com/PULSE-PROXY/pulse-proxy
 
 go 1.23.0
 

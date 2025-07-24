@@ -1,9 +1,9 @@
 package yaml_config
 
 import (
-	"pule-proxy/internal/logger"
 	"os"
 
+	"github.com/PULSE-PROXY/pulse-proxy/internal/logger"
 	"gopkg.in/yaml.v2"
 )
 

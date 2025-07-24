@@ -1,8 +1,7 @@
 package healthcheck
 
 import (
-	"pule-proxy/internal/start"
-
+	"github.com/PULSE-PROXY/pulse-proxy/internal/start"
 	"github.com/labstack/echo/v4"
 )
 

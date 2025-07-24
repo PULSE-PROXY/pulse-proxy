@@ -2,12 +2,12 @@ package start
 
 import (
 	"context"
-	"pule-proxy/internal/logger"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
+	"github.com/PULSE-PROXY/pulse-proxy/internal/logger"
 	"github.com/labstack/echo/v4"
 )
 

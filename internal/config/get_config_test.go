@@ -4,9 +4,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/PULSE-PROXY/pulse-proxy/internal/config"
 	"github.com/stretchr/testify/assert"
-
-	"pule-proxy/internal/config"
 )
 
 func TestLoadRoutesFromYAML(t *testing.T) {

@@ -2,11 +2,12 @@ package config
 
 import (
 	"fmt"
-	"pule-proxy/internal/logger"
-	yaml_config "pule-proxy/internal/yaml"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/PULSE-PROXY/pulse-proxy/internal/logger"
+	yaml_config "github.com/PULSE-PROXY/pulse-proxy/internal/yaml"
 )
 
 var (

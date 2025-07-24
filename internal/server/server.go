@@ -2,7 +2,8 @@ package server
 
 import (
 	"context"
-	"pule-proxy/internal/logger"
+
+	"github.com/PULSE-PROXY/pulse-proxy/internal/logger"
 )
 
 // IServer is the interface that abstracts the web server.

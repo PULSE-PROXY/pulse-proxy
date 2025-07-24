@@ -2,7 +2,8 @@ package config
 
 import (
 	"fmt"
-	"pule-proxy/internal/logger"
+
+	"github.com/PULSE-PROXY/pulse-proxy/internal/logger"
 )
 
 func PrintBanner(port int) {

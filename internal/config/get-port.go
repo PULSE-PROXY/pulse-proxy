@@ -1,8 +1,9 @@
 package config
 
 import (
-	yaml_config "pule-proxy/internal/yaml"
 	"strconv"
+
+	yaml_config "github.com/PULSE-PROXY/pulse-proxy/internal/yaml"
 )
 
 func PortApp() string {
