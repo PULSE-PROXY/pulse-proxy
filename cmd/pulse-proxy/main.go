@@ -8,7 +8,6 @@ import (
 func main() {
 	app := healthcheck.New()
 
-	// Middleware de chave de API
 	app.Use(ex.ApiKeyMiddleware)
 
 	app.Start()
